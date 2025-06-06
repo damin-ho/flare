@@ -119,7 +119,7 @@ export default function Connector (){
       const data: { ok: boolean } = await response.json();
       if (!data.ok) {
         allSuccessful = false;
-        console.error('Failed for bot:', bot.token);
+        console.error('Failed for bot:', bot.number1);
       }
     }
 
